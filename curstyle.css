@@ -1,0 +1,100 @@
+ 
+.container {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: url("curbg.jpg");
+    
+  }
+  
+  h1 {
+  text-align: center;
+	text-shadow: 0 -5px rgba(0,0,0,0.6);
+	font-size: 40px;
+	line-height: 50px;
+	background: #355681;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 0 10px 0 10px;
+	box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+	font-family: 'Muli', sans-serif;  
+  }
+ 
+  
+  .btn {
+    color: #fff;
+    background: #365c8e;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+  
+  
+  
+  .currency {
+    padding: 40px ;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .currency select {
+    padding: 10px 20px 10px 10px;
+    appearance: none;
+    border: 2px solid rgb(187, 208, 236);
+    font-size: 16px;
+    background: rgb(210, 223, 246);
+     
+  }
+  
+  .currency input {
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+  }
+  
+  .swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .rate {
+    color:#0f376b; ;
+    font-size: 20px ;
+    font-weight: bolder;
+    padding: 10px 50px;
+  }
+  
+  #curr,#calc{
+    align-items: center;
+    background-color: rgb(68, 0, 76);
+    border-color: azure;
+    border-width: 8px;
+    border-style: solid;
+    height: 70px;
+    width: 616px;
+    font-size: 28px;
+    font-style: italic ;
+    color: rgb(237, 245, 255);
+    font-weight: bold;
+}
+#curr:hover {
+    box-shadow: inset 30px 30px 30px #690164 ,
+    inset -30px -30px 30px #690164 ;
+}
+
+#calc:hover {
+    box-shadow: inset 30px 30px 30px #690164 ,
+    inset -30px -30px 30px #690164 ;
+}
+  
+  
